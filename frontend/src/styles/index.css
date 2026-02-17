@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white font-sans;
+}
+
+.card {
+  @apply bg-card rounded-xl p-4 hover:bg-zinc-700/40 transition-all duration-300;
+}
